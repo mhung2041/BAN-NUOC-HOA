@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/chitiet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<header class="header">
+		<div class="grid">
+			<nav class="header__navbar">
+				<ul class="header__navbar-list">
+					<li class="header__navbar-item header__navbar-item-has-qr header__navbar-item--separate">
+						<a class="header__navbar-item" href="/toanboSP.html" onclick="openLink(event)">Vào cửa hàng trên ứng dụng</a>
+						
+						<div class="header_qr">
+							<img src="./assets/img/QR_code.png" alt="QR_code" class="header_qr-img">
+							<div class="header_qr-apps">
+								<a href="" class="header-qr-link">
+									<img src="./assets/img/google_play.png" alt="" class="header_qr-apps-download-img">
+								</a>
+								<a href="" class="header-qr-link">
+									<img src="./assets/img/app_store.png" alt="" class="header_qr-apps-download-img">
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="header__navbar-item">
+
+						<span class="header__navbar-title--no-pointer">
+								
+						<a class="header__navbar-item" href="gioithieu.html" onclick="openLink(event)">Giới thiệu</span>
+						<a href="gioithieu.html" class="header_navbar-icon-link"><i class="header_navbar-icon fa-brands fa-facebook"></i></a>
+						<a href="gioithieu.html" class="header_navbar-icon-link"><i class="header_navbar-icon fa-brands fa-instagram"></i></a>
+					</li>
+				</ul>
+				<ul class="header__navbar-list">
+					<li class="header__navbar-main">
+						<a class="header__navbar-main-link" href="/index.html" onclick="openLink(event)">Trang chủ</a>
+					</li>
+				</ul>
+				<ul class="header__navbar-list">
+					<li class="header__navbar-item header_navbar-icon-hover">
+						<a href="/giohang.html"class="header__navbar-item-link" >
+							<i class="header_navbar-icon far fa-bell"></i>
+							Thông báo
+						</a>
+					<div class="header__notify">
+						<header class="header__notify-header">
+							<h3>Nước hoa pháp</h3>
+						</header>
+						<ul class="header__notify-list">
+							<li class="header__notify-item">
+								<a href="" class="header__notify-link header__notify-link-viewed">
+									<img src="./assets/img/sp14.jpg" alt="" class="header__notify-img">
+									<div class="header__notify-info">
+										<sapn class="header__notify-name">Nước hoa Việt </sapn>
+										<span class="header__notify-discriotion">Chưa xác thực</span>
+									</div>
+								</a>
+							</li>
+							<li class="header__notify-item">
+								<a href="" class="header__notify-link header__notify-link-viewed">
+									<img src="./assets/img/sp12.jpg" alt="" class="header__notify-img">
+									<div class="header__notify-info">
+										<sapn class="header__notify-name">Nước hoa MỸ </sapn>
+										<span class="header__notify-discriotion">Xác thực sản phẩm</span>
+									</div>
+								</a>
+							</li>
+							<li class="header__notify-item">
+								<a href="" class="header__notify-link header__notify-link-viewed">
+									<img src="./assets/img/anh1.jpg" alt="" class="header__notify-img">
+									<div class="header__notify-info">
+										<sapn class="header__notify-name">Nước hoa Đức</sapn>
+										<span class="header__notify-discriotion">xác thực sản phẩm</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<footer class="footer__nav">
+							<a>xem tất cả</a>
+						</footer>
+					</div>
+				</li>
+					<li class="header__navbar-item">
+						<a href="chitietSP.html"class="header__navbar-item-link" onclick="openLink(event)" >
+							<i class="header_navbar-icon fa-solid fa-circle-question"></i>
+							Chi tiết
+						</a>
+				</li>
+				<div class="noLogin">
+					<a href="dangki.html" >
+						<li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate" >Đăng ký</li>
+						<li class="header__navbar-item header__navbar-item--strong js-header__navbar-item__login" >Đăng nhập</li> 
+				</div>
+						</a>
+					
+					</ul>
+			</nav>
+
+			<!-- header with search -->
+			<div class="header-with-search">
+				
+				
+				<div class="header__search">
+					<div class="header__search-input-wrap">
+						<input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+						<!-- search history -->
+						<div class="header__search-history">
+								<h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+						<ul class="header__search-history-list">
+							<li href="" class="header__search-history-item">
+								<a href="">nuoc hoa </a>
+							</li>
+							<li href="" class="header__search-history-item">
+								<a href="">nuoc hoa </a>
+							</li>
+						</ul> 
+					</div>
+					</div>
+					<div class="header__search-selection">
+						<span class="header__search-selection-label">Trong shop</span>
+						<i class="fa-solid fa-chevron-down header__search-selection-icon"></i>
+						<ul class="header__search-option">
+							<li class="header__search-optinon-icon">
+								<span>Trong shop</span>
+								<i class="fa-solid fa-check"></i>
+							</li>
+							<li class="header__search-optinon-icon">
+								<span> Ngoài shop</span>
+								<i class="fa-solid fa-check"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="header__search-icon">
+						<i class="fa-solid fa-magnifying-glass header__search-icon-control "></i>
+					</div>
+				</div>
+				<!-- cart layout -->
+				<div class="header__cart">
+					
+						<a href="/giohang.html"><i class="fa-solid fa-cart-shopping header__cart-icon"></i></a>
+						<sapn class="header__cart-notice">3</sapn>
+						<!--  header__cart-list--no-cart -->
+						<div class="header__cart-list">
+						
+							<!-- header__cart-list--har-cart -->
+							<h4 class="header__cart-heading"> Sản phẩm đã thêm</h4>
+							<!-- cart item -->
+							<ul class="header__cart-list-item">            
+								<li class="header__cart-item">
+									<img src="./assets/img/sp16.jpg" alt="" class="header__cart-img">
+									<div class="header__cart-item-info">
+										<div class="header__cart-item-head">
+											<h5 class="header__cart-item-name">Nước hoa Pháp</h5>
+											<div class="header__cart-item-price-wrap">
+												<span class="header__cart-item-price">1.000.000đ</span>
+												<span class="header__cart-item-multyply">x</span>
+												<span class="header__cart-item-qnt">2</span>
+											</div>
+
+										</div>
+										<div class="header__cart-item-head-body">
+											<span class="header__cart-item-desscription">Phân loại: Nam</span>
+											<span class="header__cart-item-remove">xóa</span>
+
+										</div>
+									</div>
+
+								</li>
+								<li class="header__cart-item">
+									<img src="./assets/img/sp10.jpg" alt="" class="header__cart-img">
+									<div class="header__cart-item-info">
+										<div class="header__cart-item-head">
+											<h5 class="header__cart-item-name">Nước hoa Đức</h5>
+											<div class="header__cart-item-price-wrap">
+												<span class="header__cart-item-price">1.000.000đ</span>
+												<span class="header__cart-item-multyply">x</span>
+												<span class="header__cart-item-qnt">5</span>
+											</div>
+
+										</div>
+										<div class="header__cart-item-head-body">
+											<span class="header__cart-item-desscription">Phân loại: Nam</span>
+											<span class="header__cart-item-remove">xóa</span>
+
+										</div>
+									</div>
+
+								</li>
+								<li class="header__cart-item">
+									<img src="./assets/img/sp9.jpg" alt="" class="header__cart-img">
+									<div class="header__cart-item-info">
+										<div class="header__cart-item-head">
+											<h5 class="header__cart-item-name">Nước hoa Đức</h5>
+											<div class="header__cart-item-price-wrap">
+												<span class="header__cart-item-price">1.000.000đ</span>
+												<span class="header__cart-item-multyply">x</span>
+												<span class="header__cart-item-qnt">4</span>
+											</div>
+
+										</div>
+										<div class="header__cart-item-head-body">
+											<span class="header__cart-item-desscription">Phân loại: Nam</span>
+											<span class="header__cart-item-remove">xóa</span>
+
+										</div>
+									</div>
+
+								</li>
+							</ul>
+
+							<a href="/giohang.html" target="_blank" class="btn btn--primary header__cart-view" onclick="openLink(event)">Xem giỏ hàng</a>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+
+    <div class="container">
+		<div class="thongtin">
+			<h2>SAUVAGE</h2>
+			<h3>Mô tả sản phẩm
+				<p>- Hương đầu: cam Bergamot, tiêu. - Hương giữa: hoa phong lữ, hoa oải hương, tiêu hồng, tiêu Tứ Xuyên, cỏ Vetiver, cây Patchouli. <br>
+				 - Hương cuối: nhựa Ambroxan, nhựa Labdanum, gỗ. Dung tích: 10ml, 60ml, 100ml.</p>
+			</h3>
+		</div>
+		<img src="assets/img/sp13.jpg" alt="Chanel No.5 Eau de Parfum Spray">
+	
+		<div class="gioithieu">
+			<h3 class="gioithieu__text">Đặc tính Valli: <p>Sản phẩm nước hoa thường có tính năng tạo hương thơm lâu trôi trên da và quần áo, giúp bạn cảm thấy thoải mái và tự tin hơn trong công việc hoặc cuộc sống hàng ngày</p></h3>
+			<p> <i> SAUVAGE là một sản phẩm nước hoa cao cấp với hương thơm lôi cuốn và sang trọng.
+			Sản phẩm này có thể giúp bạn tỏa sáng và tự tin hơn với hương thơm tinh tế, đặc trưng của Chanel.
+			Sản phẩm này được sản xuất từ các thành phần tự nhiên, giúp bảo vệ làn da và mang lại cảm giác dịu nhẹ cho người sử dụng.</p>
+			<p class="price">Giá: 2,500,000 đ</i></p>
+			<h4>Thông tin liên hệ:0889906689</h4>
+			<h4>Chính sách bảo mật và chính sách đổi trả: Cung cấp thông tin về chính sách bảo mật và quý khách được hoàn lại sản phẩm trong vòng 30 ngày kể từ ngày thanh toán</h4>
+			<p>Hoặc bạn cũng có thể xem qua các sản phẩm tương tự ở dưới đây</p>
+		</div>
+		<a href="/giohang.html">
+			<button class="button">Mua ngay</button>
+		</a>
+		<div class="tuongtu">
+			<div class="member-item">
+				<p class="member-name">VERSACE</p>
+				<img class="member-img" src="assets/img/paner(6).jpg" alt="">
+
+			</div>
+			<div class="member-item">
+				<p class="member-name">TOM FORD</p>
+				<img class="member-img" src="assets/img/paner(6).jpg" alt="">
+
+			</div>
+			<div class="member-item">
+				<p class="member-name">REED</p>
+				<img class="member-img" src="assets/img/paner(6).jpg" alt="">
+
+
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer_hotro">
+			<h3 class="footer_hotro-thongtin">
+				Hỗ trợ
+				<h4 class="footer_hotro-thongtin">Liên hệ đặt hàng:08899066889 or 0911430495</h4>
+				<h4 class="footer_hotro-thongtin-gmail"><a class="footer_hotro-thongtin-gmail-link" href=" ">gmail: mhung2442@gmail.com</a></h4>
+				<h4 class="footer_hotro-thongtin">Đăng kí thành viên</h4>
+				<h4 class="footer_hotro-thongtin">Địa chỉ trực tiếp:230-Lê Trọng Tấn</h4>
+				<h4 class="footer_hotro-thongtin">Chăm sóc khách hàng:0977743426</h4>
+			</h3>
+
+		</div>
+	  
+		<div class="icon-list">
+			<a href=""><i class="fa-brands fa-facebook"></i></a>
+			<a href=""><i class="fa-brands fa-square-instagram"></i></a>
+			<a href=""><i class="fa-brands fa-youtube"></i></a>
+			<a href=""><i class="fa-brands fa-pinterest"></i></a>
+			<a href=""><i class="fa-brands fa-twitter"></i></a>
+			<a href=""><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+		<p class="copyright"> <a href="">Được thiết kế bởi sinh viên Phạm Đình Hùng</a>  </p>
+	   
+	</footer>
+</div>
+
+	<script>
+		function openLink(event) {
+		  event.preventDefault(); // Ngăn chặn hành vi mặc định của trình duyệt
+		  window.location.href = event.target.href; // Điều hướng đến liên kết
+		}
+		</script>
+</body>
+</html>
