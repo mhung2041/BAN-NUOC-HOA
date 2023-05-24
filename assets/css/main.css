@@ -1093,6 +1093,9 @@ justify-content: space-between;
     .category{
         height: 50vh;
     }
+    .category-item__link{
+        font-size: 30px;
+    }
 
     /* boottrap */
     

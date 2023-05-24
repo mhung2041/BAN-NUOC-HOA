@@ -766,6 +766,9 @@ p {
     cursor: pointer;
     transform: scale(1.1);
 }
+.nav-item{
+    font-size: 18px;
+}
 /* =====================footer======================= */
 .footer{
     width: 100%;

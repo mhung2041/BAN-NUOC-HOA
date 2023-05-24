@@ -700,6 +700,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
+
  #wrapper {
   
     max-width: 800px;
@@ -747,6 +748,7 @@ body {
     padding: 10px;
 }
 .infor img{
+  border-radius: 10px;
   width: 350px;
 }
   .project-item img {
